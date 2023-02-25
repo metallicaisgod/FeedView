@@ -43,7 +43,6 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction().replace(R.id.fragment_frame, f).commitAllowingStateLoss()
         }
 
- //       Log.d("tag", "test")
 //        val config = RealmConfiguration.Builder(schema = setOf(Feed::class, FeedItem::class, Enclosure::class)).build()
 //        realm = Realm.open(config)
     }
